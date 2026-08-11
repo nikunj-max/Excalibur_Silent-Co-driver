@@ -24,7 +24,9 @@ often carry warning signs the raw numbers don't show.
    is showing up as slower laps.
 
 ---
+![Image Alt](https://github.com/nikunj-max/Excalibur_Silent-Co-driver/blob/main/Excalibur%20Image01.png)
 
+---
 ## Architecture
 
 ```
