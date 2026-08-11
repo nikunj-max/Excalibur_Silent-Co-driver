@@ -1,6 +1,6 @@
 ---
-title: The Silent Co-Driver
-emoji: 🏎️
+Excalibur : The Silent Co-Driver - GRAND PRIX
+Race : 🏎️
 colorFrom: red
 colorTo: gray
 sdk: gradio
@@ -9,7 +9,7 @@ app_file: app.py
 pinned: false
 ---
 
-# 🏎️ The Silent Co-Driver
+# 🏎️ The Silent Co-Driver - GRAND PRIX
 ### Reading Driver Stress from Radio Calls
 
 **Problem:** During a race, engineers are watching telemetry and can miss the *tone*
@@ -139,3 +139,7 @@ story that makes the demo land.
 - Right now one clip = one mood snapshot lined up against the nearest lap. A nice
   extension: split a longer radio session into segments and plot mood over the
   whole race, not just one moment.
+
+  ## Contact Information  
+- Name: Nikunj Bhardwaj  
+- Email Address: nikunjbhardwaj3030@gmail.com 
