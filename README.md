@@ -115,16 +115,13 @@ story that makes the demo land.
 
 ---
 
-## Deploy to Hugging Face Spaces
+## Deploy to Railway
 
-1. Create a new **Space** → SDK: **Gradio**.
-2. Push (or upload) all files in this repo, including `sample_data/`.
-3. The Space auto-installs `requirements.txt` and boots `app.py`.
-4. First run will take a little longer while Whisper + Wav2Vec2 weights download —
-   after that they're cached on the Space. Models load once at startup (see the
-   `print()` lines in `app.py`), so the very first page load can take a minute or two
-   while the Space builds and the weights download — check the **Logs** tab if it
-   seems stuck.
+1. Push this repo (including the `Dockerfile` and `railway.toml`) to GitHub.
+2. On [railway.app](https://railway.app): **New Project → Deploy from GitHub repo** → select this repo.
+3. Railway detects the `Dockerfile` and builds automatically — installs `ffmpeg`/`libsndfile1` for audio decoding and a CPU-only PyTorch build.
+4. Under **Settings → Networking**, click **Generate Domain**. The app reads Railway's `PORT` env var automatically.
+5. First boot takes a couple of minutes while Whisper + Wav2Vec2 weights download and cache. After that, it's live.
 
 ---
 
