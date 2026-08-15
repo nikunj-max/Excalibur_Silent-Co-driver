@@ -1,8 +1,6 @@
 ---
 Excalibur : The Silent Co-Driver - GRAND PRIX
 Race : 🏎️
-colorFrom: red
-colorTo: gray
 sdk: gradio
 sdk_version: "4.36.0"
 app_file: app.py
